@@ -1,4 +1,4 @@
-#Predicting King County Housing Prices
+##Predicting King County Housing Prices
 We looked at King County, WA housing prices from 5/2014-5/2015 dataset to find out which variables were the dominant factors in housing prices.
 
 ##Contributors 
