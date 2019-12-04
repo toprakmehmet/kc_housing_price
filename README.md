@@ -1,7 +1,7 @@
-##Predicting King County Housing Prices
+## Predicting King County Housing Prices
 We looked at King County, WA housing prices from 5/2014-5/2015 dataset to find out which variables were the dominant factors in housing prices.
 
-##Contributors 
+## Contributors 
  -Christopher Shaw ([github](https://github.com/JackBurton11/))
  -Mehmet Toprak ([github](https://github.com/toprakmehmet/))
 
@@ -23,8 +23,8 @@ This was our 3rd 2 day project at the Flatiron School (NYC Data Science)
    - Seaborn/Matplotlib
    - SciPy/NumPy
 
-##Process
+## Process
 We experimented with several different types of regression and spent a lot of time on feature selection to try to build the best possible model. Our data had 21 columns, many of which we removed entirely due to collinearity and other factors. Our biggest change was turning our 70 different zip codes into dummy variables. For our models, we split the dataset using 75% for training and 25% for testing.
 
-##Conclusion
+## Conclusion
 After our model experiments and extensive feature selection, we had good results with that our best model used linear regression. The R2 was 0.87 and the MSE was 0.03.
