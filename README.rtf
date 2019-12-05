@@ -1,0 +1,49 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 #Predicting King County Housing Prices\
+We looked at King County, WA housing prices from 5/2014-5/2015 dataset to find out which variables were the dominant factors in housing prices.\
+\
+##Contributors \
+ -Christopher Shaw 
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 ([github](https://github.com/JackBurton11/))
+\f0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+ -Mehmet Toprak 
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 ([github](https://github.com/toprakmehmet/))\
+\
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 ## Background\
+This was our 3rd 2 day project at the Flatiron School (NYC Data Science)\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 ## Project Purpose and Description\
+ - The goal of this project was to work with real world datasets and experiment with different types of regression(linear, lasso, ridge) to create a predictive model. \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \outl0\strokewidth0  \cf2 \outl0\strokewidth0 \strokec2 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 ## Data:\
+ - **Kaggle**\
+	- House Sales in King County, USA\
+	- www.kaggle.com\
+\
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 ## Python Tools:\
+   - pandas\
+   - statsmodels\
+   - sklearn\
+   - Seaborn/Matplotlib\
+   - SciPy/NumPy\
+\
+##Process\
+We experimented with several different types of regression and spent a lot of time on feature selection to try to build the best possible model. Our data had 21 columns, many of which we removed entirely due to collinearity and other factors. Our biggest change was turning our 70 different zip codes into dummy variables. For our models, we split the dataset using 75% for training and 25% for testing.\
+\
+##Conclusion\
+After our model experiments and extensive feature selection, we had good results with that our best model used linear regression. The R2 was 0.87 and the MSE was 0.03.\
+}
